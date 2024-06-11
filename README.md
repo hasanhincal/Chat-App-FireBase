@@ -8,6 +8,10 @@ This project aims to create a simple chat application using Firebase. Firebase p
 - After logging in, users can join chat rooms, send messages, and view messages from other users.
 - Thanks to real-time communication, new messages are instantly delivered to other users.
 
+### For live project
+
+- https://chat-app-fire-base.vercel.app/
+
 ### Project gif
 
 <img src="screen1.gif" alt="prject-gif">
