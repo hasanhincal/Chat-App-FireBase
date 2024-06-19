@@ -129,6 +129,7 @@ button:hover {
 .chat-box main::-webkit-scrollbar {
   background: transparent;
   width: 5px;
+  height: 5px;
 }
 
 .chat-box main::-webkit-scrollbar-thumb {
@@ -149,12 +150,44 @@ button:hover {
 .user-info span {
   font-weight: bold;
 }
-
+.msg-text {
+  background-color: rgb(93, 0, 156);
+  color: white;
+  align-self: flex-start;
+  padding: 4px 8px;
+  border-radius: 10px 10px 10px 0;
+}
 .msg-user {
   background: rgb(222, 146, 4);
   align-self: flex-end;
   padding: 4px 8px;
   border-radius: 10px 10px 0 10px;
+}
+.msg-user span,
+.msg-text span {
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  font-weight: 400;
+}
+.msg-text img,
+.msg-user img {
+  width: 100%;
+  height: 300px;
+  object-position: center;
+  border-radius: 10px;
+}
+.chat-add {
+  background: rgb(222, 146, 4);
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.chat-add:hover {
+  box-shadow: 0 0 40px rgb(103, 175, 216);
+  transform: scale(0.97);
 }
 @media (max-width: 500px) {
   .chat-box {
